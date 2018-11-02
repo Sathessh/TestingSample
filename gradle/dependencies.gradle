@@ -1,0 +1,17 @@
+ext {
+    kotlin_version = "1.2.0"
+    gson_version = "2.8.5"
+
+    commonDependencies = [
+            gson : "com.google.code.gson:gson:$gson_version",
+            retofitLogging : 'com.squareup.okhttp3:logging-interceptor:3.11.0',
+            retofitAdapters : 'com.squareup.retrofit2:retrofit-adapters:2.4.0',
+            retofit : 'com.squareup.retrofit2:retrofit:2.4.0',
+            retofitRXAdapter : 'com.squareup.retrofit2:adapter-rxjava2:2.4.0',
+            retofitGsonConvertor : 'com.squareup.retrofit2:converter-gson:2.4.0',
+            jUnit : 'junit:junit:4.12',
+            kotlinStdLib : "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version",
+            rxJava : 'io.reactivex.rxjava2:rxjava:2.1.6',
+            espressoCore : 'com.android.support.test.espresso:espresso-core:2.2.2',
+    ]
+}
